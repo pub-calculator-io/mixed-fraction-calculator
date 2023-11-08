@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Mixed Fraction Calculator](https://www.calculator.io/mixed-fraction-calculator/ "Mixed Fraction Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_mixed_fraction_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Mixed Fraction Calculator to the sidebar through the `Appearance -> Widgets -> Mixed Fraction Calculator` menu in WordPress.
+* Add the shortcode `[ci_mixed_fraction_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_mixed_fraction_calculator(); ?>` to your template where you would like the Mixed Fraction Calculator to appear.
 
 == Screenshots ==
