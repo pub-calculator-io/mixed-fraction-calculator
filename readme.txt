@@ -13,6 +13,8 @@ Mixed number to improper fraction calculator to convert mixed numbers, consistin
 
 Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.
 
+[Mixed Fraction Calculator Homepage](https://www.calculator.io/mixed-fraction-calculator/ "Mixed Fraction Calculator Homepage")
+
 __Shortcode__
 
 Use the Mixed Fraction Calculator shortcode:
