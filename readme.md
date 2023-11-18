@@ -1,4 +1,4 @@
-# Mixed Fraction Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Mixed Fraction Calculator Widget for WordPress
 
 Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.
 
