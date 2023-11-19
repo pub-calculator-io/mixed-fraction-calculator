@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Mixed Fraction Calculator by www.calculator.io
+Plugin Name: CI Mixed fraction calculator
 Plugin URI: https://www.calculator.io/mixed-fraction-calculator/
 Description: Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.
 Version: 1.0.0
