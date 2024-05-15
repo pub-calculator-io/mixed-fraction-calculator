@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Mixed Fraction 
 == Screenshots ==
 
 1. The Mixed Fraction Calculator Input Form.
-2. The Mixed Fraction Calculator Calculation Results.
 
 == Installation ==
 

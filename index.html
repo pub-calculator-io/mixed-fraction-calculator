@@ -36,8 +36,8 @@
                 					<div class="input-field input-field--mixed row input-field--mixed-only">
                 						<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input input-field__input--full" placeholder="0" id="fraction_a_full" value="1"  />
                 						<div class="col">
-                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_top" value="2"  />
-                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_bottom" value="3"  />
+                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_num" value="2"  />
+                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_denom" value="3"  />
                 						</div>
                 					</div>
                 				</label>			</div>
@@ -48,14 +48,17 @@
                 		
                 		
                 		
-                			<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                			<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 		</div>
                 		
                 		
-                			<script type="text/javascript" src="./assets/js/fractions.js"></script>
+                			<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 		
                 		
-                			<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                			<script type="text/javascript" src="./assets/js/fractions.js" defer></script>
+                		
+                		
+                			<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 
                 	</div>
                 </div>            </div>
@@ -72,11 +75,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">IMPROPER FRACTION</p>
-	<div class="table-cell table-cell--fraction row">
+	<div class="table-cell table-cell--fraction row animate">
 		<div class="col fraction-text">
 			<p class="result-text text-center" id="solutionNum">1 × 3 + 2</p>
 			<p class="result-text text-center" id="solutionDenom">3</p>

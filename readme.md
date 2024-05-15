@@ -3,7 +3,6 @@
 Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.
 
 ![Mixed Fraction Calculator Input Form](/assets/images/screenshot-1.png "Mixed Fraction Calculator Input Form")
-![Mixed Fraction Calculator Calculation Results](/assets/images/screenshot-2.png "Mixed Fraction Calculator Calculation Results")
 
 ## Installation
 

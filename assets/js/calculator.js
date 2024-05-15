@@ -4,8 +4,8 @@ function calculate(){
   const optInteger = elementId => input.get(elementId).optional().integer().raw();
   const optNatural = elementId => input.get(elementId).optional().natural().raw();
   const aWhole = optInteger('fraction_a_full');
-  const aNum = optInteger('fraction_a_top');
-  const aDenom = optNatural('fraction_a_bottom');
+  const aNum = optInteger('fraction_a_num');
+  const aDenom = optNatural('fraction_a_denom');
   input.silent = false;
 
   // additional checks
