@@ -1,6 +1,6 @@
 # Mixed Fraction Calculator Widget for WordPress
 
-Mixed number to improper fraction calculator to convert mixed numbers, consisting of a whole number and a proper fraction, to improper fractions.
+Use our free Mixed Fraction Calculator to easily add, subtract, multiply, and divide mixed numbers. Instantly convert mixed numerals to improper fractions!
 
 ![Mixed Fraction Calculator Input Form](/assets/images/screenshot-1.png "Mixed Fraction Calculator Input Form")
 
@@ -11,8 +11,8 @@ Mixed number to improper fraction calculator to convert mixed numbers, consistin
 3. Activate the [Mixed Fraction Calculator](https://www.calculator.io/mixed-fraction-calculator/ "Mixed Fraction Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_mixed_fraction_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_mixed_fraction_calculator(); ?>` to your template where you would like the Mixed Fraction Calculator to appear.
+* Add the shortcode `[calcio_mixed_fraction_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_mixed_fraction_calculator(); ?>` to your template where you would like the Mixed Fraction Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
